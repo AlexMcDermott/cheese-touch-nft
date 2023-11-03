@@ -10,8 +10,6 @@ const main = async () => {
   ]);
 
   await contract.waitForDeployment();
-
-  // @ts-ignore
   console.log(contract.target);
 };
 

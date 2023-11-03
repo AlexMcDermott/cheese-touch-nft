@@ -13,7 +13,7 @@ contract CheeseTouch is ERC721URIStorage, Ownable {
         string memory tokenSymbol
     ) ERC721(tokenName, tokenSymbol) Ownable(msg.sender) {}
 
-    function mintNFT(
+    function mint(
         address recipient,
         string memory tokenURI
     ) public onlyOwner returns (uint256) {

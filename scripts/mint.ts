@@ -12,15 +12,15 @@ const contract = new ethers.Contract(
   signer
 );
 
-const mintNFT = async () => {
-  const txn = await contract.mintNFT(signer.address, process.env.TOKEN_URI);
+const mint = async () => {
+  const txn = await contract.mint(signer.address, process.env.TOKEN_URI);
   await txn.wait();
   console.log(
     `NFT Minted! Check it out at: https://sepolia.etherscan.io/tx/${txn.hash}`
   );
 };
 
-mintNFT()
+mint()
   .then(() => process.exit(0))
   .catch((error) => {
     console.error(error);
