@@ -28,4 +28,4 @@ Inspired by the children's book Diary of a Wimpy Kid, the point of this NFT is n
 
 This is my first time creating an NFT smart contract and is my first proper Web3 project in general. As such I'm not very familiar with the tooling and am still trying to figure it all out.
 
-- There is an issue with typing in the deployment script where the deployed contract is not typed to contain a target property even though one is present if ignored by TypeScript. I think this issue could relate to Hardhate and its toolbox.
+- There is an issue with typing in the deployment script where the deployed contract is not typed to contain a target property even though one is present if ignored by TypeScript. I think this issue could relate to Hardhat and its toolbox.
