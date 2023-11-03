@@ -1,0 +1,21 @@
+{
+  "name": "cheese-touch-nft",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "deploy": "npx hardhat run scripts/deploy.ts --network sepolia",
+    "mint": "npx hardhat run scripts/mint.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^3.0.0",
+    "dotenv": "^16.3.1",
+    "hardhat": "^2.18.3"
+  },
+  "dependencies": {
+    "@openzeppelin/contracts": "^5.0.0",
+    "alchemy-sdk": "^2.10.1"
+  }
+}
